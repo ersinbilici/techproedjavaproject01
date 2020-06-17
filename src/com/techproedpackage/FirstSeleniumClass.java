@@ -9,7 +9,7 @@ public class FirstSeleniumClass {
         //Driver oluşturduk
         WebDriver driver = new ChromeDriver();
         //url'ye gidiyoruz.
-        driver.get("https://www.google.com/");
+        driver.get("https://www.amazon.com/");
         Thread.sleep(5000);// bu kod ile chrome 5 saniye sonra otomatik kapanacak
         driver.close();
     }
